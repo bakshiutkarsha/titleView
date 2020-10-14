@@ -1,0 +1,41 @@
+.sidebarCntr{
+    display: inline-flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: column;
+    padding: 30px;
+    color: #fff;
+    overflow: scroll;
+    input{
+        margin-bottom: 20px;
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        font-size: 16px;
+        letter-spacing: 0.6px;
+        outline: none;
+        color: #fff;
+    }
+    .eachTitle{
+        padding: 10px;
+        margin-bottom: 5px;
+        font-weight: 300;
+        opacity: 0.8;
+        cursor: pointer;
+        &:hover{
+            background: #4e4c4c;
+            border-radius: 4px;
+            opacity: 1;
+            font-weight: 350;
+        }
+    }
+    .searchCntr{
+        position: relative;
+        img{
+            width: 25px;
+            position: absolute;
+            bottom: 24px;
+        }
+        
+    }
+}
